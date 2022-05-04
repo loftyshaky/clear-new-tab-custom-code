@@ -1,0 +1,29 @@
+.clock {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  pointer-events: none;
+  user-select: none;
+}
+
+.inner {
+  margin-top: 60px;
+  padding: 7px 21px;
+  padding-bottom: 24px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.time,
+.date {
+  color: white;
+  font-size: 50px;
+  font-family: Segoe UI;
+}
+
+.date {
+  font-size: 14px;
+  margin: auto;
+  display: table;
+}
